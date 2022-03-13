@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.outer-container {
+  background-color: #ffd569;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.inner-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 80vh;
+  width: 80vw;
+  border-radius: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.fruit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .fruit-container {
+    flex-direction: column;
+  }
+}
+.fruit-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fruit {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffd569;
+}
+.image {
+  height: 300px;
+  width: 250px;
+}
+@media screen and (max-width: 576px) {
+  .image {
+    height: 150px;
+    width: 125px;
+  }
+}
+.eat-mango-button {
+  height: 30px;
+  width: 120px;
+  border: 0px none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.eat-banana-button {
+  height: 30px;
+  width: 120px;
+  border: 0px none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
